@@ -2,7 +2,7 @@
 
 ## Simple Graph Convolutions
 
-Reimplements the model architecture discussed in (Wu et al – Simplifying Graph Convolutional Networks)[https://arxiv.org/pdf/1902.07153].
+Reimplements the model architecture discussed in [Wu et al – Simplifying Graph Convolutional Networks](https://arxiv.org/pdf/1902.07153).
 
 ## Members
 - Kabir Samsi (kas499)
