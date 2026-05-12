@@ -17,7 +17,7 @@ Download the following two datasets and store them under `data/` before running:
 1) https://drive.google.com/open?id=174vb0Ws7Vxk_QTUtxqTgDHSQ4El4qDHt
 2) https://drive.google.com/open?id=19SphVl_Oe8SJ1r87Hr5a6znx3nJu1F2J
 
-## Independent Exploration: Actor Dataset
+## Independent Exploration
 
 Cell 8 of the notebook benchmarks SGC and GCN on the Actor heterophilic graph as an independent exploration. **We recommend running this cell in Google Colab**, as the existing notebook is configured to mount Google Drive for loading the dataset files. If this cell is not needed, please comment it out before running. 
 
