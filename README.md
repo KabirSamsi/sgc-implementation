@@ -42,3 +42,15 @@ Place both files in your Google Drive (or update the `NODE_FILE` / `EDGE_FILE` p
 - **results/convergence_rate** - Graphs convergence rates (loss function decrease over time, accuracy over time) for our GCN model against our SGC model across three datasets
 - **results/test_accuracy** - Graphs testing accuracy across three datasets for our GCN model against our SGC model
 - **results/training_time** - Graphs training times across three datasets for our GCN model against our SGC model
+- **results/table_with_actor.png** — Extended summary table including Actor alongside citation networks.
+- **results/test_accuracy_wactor** — Bar chart comparing SGC and GCN test accuracy across citation networks and Actor.
+- **results/training_time_wactor.png** — Bar chart comparing SGC and GCN training time across citation networks and Actor.
+- **results/weight_decay_citationnetworks** — SGC validation accuracy across weight decay grid values for Cora, Citeseer, and Pubmed.
+
+- **results/weight_decay_actor** — SGC weight decay sensitivity on Actor alongside citation networks.
+- **results/gcnvsgc_table.png** — Summary table of SGC and GCN test accuracy and training time across citation networks over 10 seeds.
+
+### Supplemental Result Images (Not Inlcuded in Report)
+
+- (results/reddit_results** — SGC Micro F1 per seed on Reddit compared to the paper's reported 94.9% baseline.)
+- (results/homophily_scatter_final.png — Scatter plot of homophily ratio vs test accuracy for SGC and GCN across citation networks and other heterophilic datasets, with Pearson correlation trend lines for each model. from testing_many_homophilies)
