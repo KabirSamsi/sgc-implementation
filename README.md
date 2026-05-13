@@ -34,3 +34,10 @@ Cell 8 of the notebook benchmarks SGC and GCN on the Actor heterophilic graph as
 The Actor dataset (`actor_nodes.txt` and `actor_edges.txt`) can be downloaded from the Geom-GCN repository: https://github.com/graphdml-uiuc-jlu/geom-gcn/tree/master/new_data/film
 
 Place both files in your Google Drive (or update the `NODE_FILE` / `EDGE_FILE` paths in the cell) before running.
+
+## Result Images
+
+- **results/accuracy_vs_decay** - Graphs model accuracy with respect to weight decay across each dataset for SGC
+- **results/convergence_rate** - Graphs convergence rates (loss function decrease over time, accuracy over time) for our GCN model against our SGC model across three datasets
+- **results/test_accuracy** - Graphs testing accuracy across three datasets for our GCN model against our SGC model
+- **results/training_time** - Graphs training times across three datasets for our GCN model against our SGC model
