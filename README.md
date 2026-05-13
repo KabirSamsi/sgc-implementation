@@ -19,7 +19,7 @@ Reimplements the model architecture discussed in [Wu et al – Simplifying Graph
 - **code/testing_many_homophilies.ipynb** — exploratory notebook testing SGC and GCN across multiple heterophilic datasets with varying homophily ratios and Pearson correlation analysis. Not included in the main report.
 - **poster/** — PDF of the poster presented at the class poster session.
 - **report/** — PDF of the final 2-page project summary report.
-- **results/**: Contains the results of your re-implementation, including any generated figures, tables, or log files.
+- **results/**: Contains the results the  re-implementation, including any generated figures, tables, or log files.
 
 ## Accessing Datasets
 
